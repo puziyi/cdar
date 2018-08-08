@@ -1,0 +1,64 @@
+/* GothamBlack */
+@font-face {
+    font-family: GothamBlack;
+    src: url('../fonts/Gotham-Black.ttf');
+}
+
+/* LatoMedium */
+@font-face {
+    font-family: LatoMedium;
+    src: url('../fonts/Lato-Medium.ttf');
+}
+
+/* LatoRegular */
+@font-face {
+    font-family: LatoRegular;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+/* ProximaNovaSemiBold */
+@font-face {
+    font-family: ProximaNovaSemiBold;
+    src: url('../fonts/ProximaNova-Semibold.otf');
+}
+
+/* ProximaNovaBold */
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url('../fonts/ProximaNova-Bold.otf');
+}
+
+/* ProximaNovaExtraBold */
+@font-face {
+    font-family: ProximaNovaExtraBold;
+    src: url('../fonts/ProximaNova-Extrabold.otf');
+}
+
+/* ProximaNovaLight */
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url('../fonts/ProximaNova-Light.otf');
+}
+
+/* 根据需求设置不同类型字符的字体 */
+.digital{
+    font-family: GothamBlack;
+}
+.navigation{
+    font-family: LatoMedium;
+}
+.text{
+    font-family: LatoRegular;
+}
+.super_title{
+    font-family: ProximaNovaExtraBold;
+}
+.title{
+    font-family: ProximaNovaBold;
+}
+.sub_title{
+    font-family: ProximaNovaSemiBold;
+}
+.title_light{
+    font-family: ProximaNovaLight;
+}
