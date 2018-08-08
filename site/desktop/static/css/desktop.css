@@ -1,11 +1,11 @@
 /*------------------------------------------/
 / Banner /
 /------------------------------------------*/
-html{
-    font-size: 18px;
+body{
+    font-size: 28px !important;
 }
 #banner{
-    background-image: url(../imgs/bg.png);
+    background-image: url(../imgs/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,7 +17,14 @@ html{
 .banner a:hover{
     color: #5197FF;
     text-decoration: none;
-
+}
+.banner :active{
+    color: #5197FF;
+    text-decoration: none;
+}
+.banner a :visited{
+    color: #FFF;
+    text-decoration: none;
 }
 
 /* counting down  */
@@ -116,9 +123,11 @@ html{
 }
 .banner_slash{
     display: block;
-    margin-right: 4em;
+    margin-left: 0;
+    margin-right:4em;
     margin-top: 0;
     margin-bottom: 0;
+    width: 50%;
 }
 .banner_date{
     font-size: 1.5em;

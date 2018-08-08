@@ -23,7 +23,7 @@
                     </div>
                     <div class="bar_ne col-lg-1 col-lg-offset-11 col-md-1 col-md-offset-11 col-sm-1 col-sm-offset-11"></div>
                 </div>
-            <div class="row mid_row">
+                <div class="row mid_row">
                 <div class="nav_block col-lg-1 col-md-1 col-sm-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                     <ul>
                         <li class="navigation banner nav"><a href="#" class="banner">HOME</a></li>
@@ -43,11 +43,11 @@
                     <p class="digital banner_date">11.2 - 11.4</p>
                     <button type="button" id="register_banner" class="banner">REGISTER</button>
                 </div>
-            </div>
-            <div class="row bot_row">
+                </div>
+                <div class="row bot_row">
                 <div class="bar_sw col-lg-1 col-md-1 col-sm-1"></div>
                 <div class="bar_se col-lg-1 col-lg-offset-10 col-md-1 col-md-offset-10 col-sm-1 col-sm-offset-10"></div>
-            </div>
+                </div>
         </div>
 
         <!-- navigation -->
@@ -62,7 +62,7 @@
                 var bannerH = $('#banner').height();
                 if(windowH > bannerH) {                            
                     $('#banner').css({'height':($(window).height() - 1 )+'px'});
-                    // $('#bannertext').css({'height':($(window).height())+'px'});
+                    $('#bannertext').css({'height':($(window).height() - 1)+'px'});
                 }                                                                               
                 $(window).resize(function(){
                     var windowH = $(window).height();
@@ -72,11 +72,11 @@
                     var truecontentH = $('#bannertext').height();
                     if(windowH < truecontentH) {
                         $('#banner').css({'height': (newH - 1)+'px'});
-                        // $('#bannertext').css({'height': (newH)+'px'});
+                        $('#bannertext').css({'height': (newH - 1)+'px'});
                     }
                     if(windowH > truecontentH) {
                         $('#banner').css({'height': (newH - 1)+'px'});
-                        // $('#bannertext').css({'height': (newH)+'px'});
+                        $('#bannertext').css({'height': (newH - 1)+'px'});
                     }
             
                 })          
